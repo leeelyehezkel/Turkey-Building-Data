@@ -3,3 +3,4 @@
 *.tar.gz
 *.pt
 resources/
+src/__pycache__/
