@@ -4,3 +4,15 @@
 *.pt
 resources/
 src/__pycache__/
+
+# .idea files
+.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/codeStyles/**
+!.idea/runConfigurations/**
+!.idea/inspectionProfiles/**
+!*.iml
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
