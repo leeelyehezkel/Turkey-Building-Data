@@ -1,0 +1,22 @@
+# The notebooks were run on Google Colab (Python 3.12, PyTorch 2.11, T4 GPU).
+# Colab already provides most of these; the notebooks install the rest themselves.
+# For a local environment, install PyTorch for your platform first (https://pytorch.org), then:
+#   pip install -r requirements.txt
+
+segmentation_models_pytorch==0.5.0
+albumentations==2.0.8
+iterative-stratification==0.1.9
+pandas==2.2.2
+numpy
+scipy
+scikit-learn
+opencv-python
+Pillow
+matplotlib
+seaborn
+tqdm
+pykrige
+folium
+branca
+huggingface_hub
+kaggle
