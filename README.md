@@ -1,6 +1,6 @@
 # Damage mapping from ground-level photos of buildings after an earthquake
 
-Code and model for the paper *Post-Earthquake Building Damage Mapping for Urban Search and Rescue: Transformer-Based Transfer Learning on Ground-Level Images for INSARAG Worksite Triage* (submitted to the International Journal of Disaster Risk Reduction).
+Code and model for the paper *Post-Earthquake Building Damage Mapping for Urban Search and Rescue: Transformer-Based Transfer Learning on Ground-Level Images for INSARAG Worksite Triage* (manuscript in preparation).
 
 A SegFormer model, pretrained on the Cityscapes urban dataset, is fine-tuned on 361 geotagged photographs taken by USAR engineers after the February 2023 earthquakes in Türkiye. It labels every pixel as background, machinery, personnel or one of the six INSARAG worksite triage categories A to F. The pixel labels of each photo are reduced to one triage score, and the scores are interpolated between photo locations into damage heatmaps.
 
